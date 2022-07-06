@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>&lt;model-viewer&gt; template</title>
+    <meta charset="utf-8">
+    <meta name="description" content="&lt;model-viewer&gt; template">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="text/css" href="./styles.css" rel="stylesheet"/>
+    <!-- OPTIONAL: The :focus-visible polyfill removes the focus ring for some input types -->
+    <script src="https://unpkg.com/focus-visible@5.0.2/dist/focus-visible.js" defer></script>
+  </head>
+  <body>
+    <!-- <model-viewer> HTML element -->
+    <model-viewer bounds="tight" enable-pan src="Astaga.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls environment-image="neutral" poster="poster.webp" shadow-intensity="1" auto-rotate camera-orbit="-291deg 85.17deg auto">
+      <button class="Hotspot" slot="hotspot-4" data-position="0.3445030934927855m 1.3719043004300164m 0.1494334120476099m" data-normal="0.9316832683996659m -0.03875368361910176m 0.36119861487838956m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation">Astaga Snack</div>
+      </button><button class="Hotspot" slot="hotspot-7" data-position="1.8968101324000908m 3.0301736253143683m -0.6621538309619717m" data-normal="0.22952175979304731m -0.9701801099568489m -0.07791223283682236m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation">Lamp Model</div>
+      </button><button class="Hotspot" slot="hotspot-10" data-position="0.37427310228290356m 0.3570898139330987m -0.5689729104263279m" data-normal="0.9002903410886293m -0.36460958472913224m 0.23777542443694555m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation">Halal</div>
+      </button>
+    </model-viewer>  
+    <!-- Loads <model-viewer> for browsers: -->
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+  </body>
+</html>
