@@ -11,7 +11,7 @@ body {
 
 model-viewer {
   width: 100%;
-  height: 90%;
+  height: 100%;
   background-color: #ffffff;
 }
 
@@ -50,7 +50,7 @@ model-viewer {
   transform: translateY(-50%);
 }
 
-.HotspotAnnotation{
+.HotspotAnnotation {
   background: #fff;
   border-radius: 4px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
